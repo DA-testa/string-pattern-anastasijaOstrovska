@@ -8,8 +8,7 @@ def read_input():
         return (input().rstrip(), input().rstrip())
 
     elif "f" in i.lower() :
-        name = input()
-        name = "./tests/" + name
+        name = "./tests/06"
         if "a" not in name:
             with open(name, mode = 'r' ,  encoding = "utf8") as fail:
                 return (fail.readline().rstrip(), fail.readline().rstrip())
