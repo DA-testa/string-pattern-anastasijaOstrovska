@@ -1,5 +1,4 @@
 # python3
-import time
 B = 13 # random number
 Q = 256 # number of charackters in input alphabet
 
